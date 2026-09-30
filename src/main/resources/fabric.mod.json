@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "ryzixmobesp",
+	"version": "${version}",
+	"name": "RyzixMob-ESP",
+	"description": "Entity ESP for normal mobs",
+	"authors": [
+		"Ryzix"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/ryzixmobesp/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.ryzix.mobesp.RyzixMobESP"
+		],
+		"client": [
+			"com.ryzix.mobesp.RyzixMobESPInit"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
