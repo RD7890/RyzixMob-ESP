@@ -92,6 +92,6 @@ public class EntityESP {
         buffer.vertex(matrix, minX, minY, maxZ).color(r, g, b, a).next();
         buffer.vertex(matrix, minX, maxY, maxZ).color(r, g, b, a).next();
         
-        tessellator.draw();
+        Tessellator.getInstance().draw();
     }
 }
